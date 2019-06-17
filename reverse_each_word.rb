@@ -1,7 +1,7 @@
 def reverse_each_word(sentence)
   # turn your string into an array
   sentence_array = sentence.split
-  
+
   sentence. each do |word|
     # .first.reverse.unshift
     puts "#{word}"
