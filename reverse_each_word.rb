@@ -1,11 +1,12 @@
-def reverse_each_word(string)
-  string = ''
-  reverse_string =[]
-  when reverse_string. each do |char|
-    reverse_string.first.reverse.unshift
-    puts "#{char}"
+def reverse_each_word(sentence)
+  # turn your string into an array
+  sentence_array = sentence.split
+  
+  sentence. each do |word|
+    # .first.reverse.unshift
+    puts "#{word}"
   end
-  til reverse_string.collect do |char|
-    "#{char}".first.reverse.unshift
-      end
-    end
+
+#    til reverse_string.collect do |char|
+#      "#{char}".first.reverse.unshift
+#        end
